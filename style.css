@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Norse Bold';
-    src: url(Norse-Bold.otf) format('opentype');
+    src: url(assets/fonts/Norse-Bold.otf) format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'arabotoMed';
-    src: url(Araboto\ Medium\ 400.otf) format('opentype');
+    src: url(assets/fonts/Araboto\ Medium\ 400.otf) format('opentype');
     font-weight: normal;
     font-style: normal;
 }

@@ -8,6 +8,53 @@
     <title>Sign Up</title>
 </head>
 <body>
-    
+    <div id="div1">
+        <div class="logoBranding">
+            <img src="odin-lined.png" alt="Logo" id="logo">
+            <p class="odinText">ODIN</p>
+        </div>
+        <img src="bgImage.jpg" alt="Big image with a green plant" id="greenPlant">
+    </div>
+    <div id="div2">
+        <p id="mainText">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started. <br><br>
+You <em>know</em> you want to.  </p>
+        <div class="formDiv">
+            <form action="https://formtester.goodbytes.be/post.php" method="post" id="signUpForm">
+                <legend>Let's do this</legend>
+                <fieldset>
+                    <label for="first_name">
+                        FIRST NAME
+                        <input size="35" type="text" id="first_name" name="first_name">
+                    </label>
+                    <label for="last_name">
+                        LAST NAME
+                        <input size="35" type="text" id="last_name" name="last_name">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label for="email">
+                        EMAIL
+                        <input size="35" type="email" name="email" id="email">
+                    </label>
+                    <label for="phoneNumber">
+                        PHONE NUMBER 
+                        <input size="35" type="tel" name="phoneNumber" id="phoneNumber">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label for="pw">
+                        PASSWORD
+                        <input size="35" type="password" name="pw" id="pw" minlength="8" maxlength="32" required>
+                    </label>
+                    <label for="confirmPw">
+                        CONFIRM PASSWORD
+                        <input size="35" type="password" name="confirmPw" id="confirmPw" minlength="8" maxlength="32" required>
+                    </label>
+                </fieldset>
+            </form>
+        </div>
+        <button type="submit" form="signUpForm" id="signUpBtn">Create Account</button>
+        <p id="logInTxt">Already have an account? <a id="logInRedirect">Log In</a></p>
+    </div>
 </body>
 </html>
